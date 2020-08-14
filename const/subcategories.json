@@ -13276,6 +13276,50 @@
     }
   },
   "55": {
+    "bicycle_type": {
+      "values": [
+        {
+          "label": "enfant",
+          "value": "enfant"
+        },
+        {
+          "label": "vtt",
+          "value": "vtt"
+        },
+        {
+          "label": "vtc",
+          "value": "vtc"
+        },
+        {
+          "label": "bmx",
+          "value": "bmx"
+        },
+        {
+          "label": "course",
+          "value": "course"
+        },
+        {
+          "label": "electrique",
+          "value": "electrique"
+        },
+        {
+          "label": "ville",
+          "value": "ville"
+        },
+        {
+          "label": "fixie",
+          "value": "fixie"
+        },
+        {
+          "label": "piece",
+          "value": "piece"
+        },
+        {
+          "label": "equipement",
+          "value": "equipement"
+        }
+      ]
+    },
     "price": {
       "values": [
         {

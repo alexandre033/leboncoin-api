@@ -19,19 +19,35 @@
     "url": "https://github.com/tdurieux/leboncoin-api/issues"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "axios-cookiejar-support": "^1.0.0",
     "lodash": "^4.17.15",
-    "request": "^2.88.0"
+    "tough-cookie": "^4.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "coveralls": "^3.0.6",
+    "eslint": "^7.6.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.0",
+    "prettier": "^2.0.5",
     "should": "^13.2.3"
   },
   "keywords": [
     "le bon coin",
     "leboncoin",
     "leboncoin.fr"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "parser": "flow",
+    "semi": true,
+    "tabWidth": 2
+  },
+  "prettierignore": [
+    "package.json"
   ],
   "author": "Thomas Durieux",
   "license": "MIT",

@@ -1,4 +1,6 @@
-module.exports.Search = require('./lib/search').Search;
+const { Init } = require('./services/axiosInit');
+Init();
+module.exports.Search = require('./lib/search');
 module.exports.Item = require('./lib/item').Item;
 module.exports.Session = require('./lib/session').Session;
 module.exports.User = require('./lib/user').User;
